@@ -53,12 +53,13 @@ h2 { /* Header 2 */
   color: #117A65;
 }
 h3 { /* Header 3 */
-  font-size: 24px;
-  /*font-weight: bold;*/
-  color: #117A65;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0E6655;
 }
 h4 { /* Header 4 */
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
   color: #0E6655;
 }
 code{ /* Code block */
