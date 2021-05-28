@@ -1,0 +1,23 @@
+---
+title: "PCA"
+
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: false
+    toc_depth: 3
+    # number_sections: true
+    #theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(icon)
+```
+
+---
+
+`r icon_style(fontawesome$solid$"tools", rotate = 0, scale = 3, fill = "#000000")`
+
+still in progress...

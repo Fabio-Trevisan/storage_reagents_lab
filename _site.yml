@@ -1,0 +1,33 @@
+name: "Storage"
+title: "Mauro Maver"
+author: "Mauro Maver"
+
+output_dir: "."  # for GitHub
+navbar:
+  right:
+    - icon: fa-envelope
+      href: mailto:mauromaver@gmail.com
+    #- icon: fa-graduation-cap
+    #  href: https://scholar.google.it/citations?user=ZUUEM0sAAAAJ&hl=it
+    #- icon: fab fa-github
+    #  href: https://github.com/Stramon1um
+    #- icon: fab fa-twitter
+    #  href: https://twitter.com/Stramon1um
+    #- icon: fab fa-linkedin
+    #  href: https://www.linkedin.com/in/mauro-maver-633525b6/
+  left:
+    - icon: fa-home
+      href: index.html
+      
+    - text: "Lab 1.20"
+    #  icon: fa-info
+      href: page_2.html
+      
+    #- text: "Tabelle"
+    #  icon: fa-info
+    #  href: page_2.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: style.css
