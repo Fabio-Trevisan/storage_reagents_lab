@@ -17,7 +17,7 @@ library(icon)
 ```
 
 ### Last update: 28 / 05 / 2021
-#### for any update (deposit or withdrawal), please email me --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
+#### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
@@ -103,3 +103,4 @@ library(icon)
 | Plastic pots                   | Volume | Bags / Box | n° per bag / box | Total |
 |--------------------------------|--------|------------|------------------|-------|
 | mini plastic pots (yellow lid) | 70 mL  | 2          | 250              | 500   |
+
