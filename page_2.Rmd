@@ -1,12 +1,12 @@
 ---
-title: "PCA"
+title: "Lab 1.20"
 
 output: 
   html_document:
     toc: true
     toc_float:
       toc_collapsed: false
-    toc_depth: 3
+    toc_depth: 2
     # number_sections: true
     #theme: lumen
 ---
@@ -18,6 +18,16 @@ library(icon)
 
 ---
 
-`r icon_style(fontawesome$solid$"tools", rotate = 0, scale = 3, fill = "#000000")`
+<!-- `r icon_style(fontawesome$solid$"tools", rotate = 0, scale = 3, fill = "#000000")` -->
 
-still in progress...
+### Last update: 28 / 05 / 2021
+#### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
+
+---
+
+### Last changes:
+- 28/05/2021 - List created
+
+---
+
+in progress...
