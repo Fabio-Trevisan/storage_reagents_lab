@@ -21,6 +21,11 @@ library(icon)
 
 ---
 
+### Last changes:
+- 28/05/2021 - List created
+
+---
+
 ## Plastic tubes
 
 | Plastic tubes   | Volume | Bags / Box | n° per bag / box | Total |
@@ -73,7 +78,7 @@ library(icon)
 
 | Flacon tubes    | Volume | Bags / Box | n° per bag / box | Total |
 |-----------------|--------|------------|------------------|-------|
-| falcon          | 15 mL  | 10         | 500              | 5000  |
+| falcon          | 15 mL  | 10         | 50               | 500   |
 | falcon          | 50 mL  | 8          | 100              | 800   |
 | falcon + filter | 50 mL  | 5.5        | 24               | 132   |
 
