@@ -40,7 +40,7 @@ Code block  #2469e0; (hyperlinks)
 
 /* Text styles*/
 td {  /* Table  */
-  font-size: 12px;
+  font-size: 16px;
 }
 h1 { /* Header 1 */
   font-size: 36px;
@@ -53,11 +53,12 @@ h2 { /* Header 2 */
   color: #117A65;
 }
 h3 { /* Header 3 */
-  font-size: 20px;
+  font-size: 24px;
+  /*font-weight: bold;*/
   color: #117A65;
 }
 h4 { /* Header 4 */
-  font-size: 16px;
+  font-size: 20px;
   color: #0E6655;
 }
 code{ /* Code block */
