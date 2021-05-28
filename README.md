@@ -1,1 +1,1 @@
-# storage_reagents_lab
+# Storage & Reagents lab
