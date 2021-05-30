@@ -13,11 +13,26 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(icon)
+#library(icon)
+library(kableExtra)
+library(formattable)
+library(dplyr)
 ```
 
+```{r include=FALSE}
 
-<!-- `r icon_style(fontawesome$solid$"tools", rotate = 0, scale = 3, fill = "#000000")` -->
+# loading the main table from csv
+lista_reagenti <- read.csv2("reagenti_270521.csv", header = TRUE)
+
+#colnames(lista_consumabili) <- c("Reagent", "Code", "Company", "Weight", "Quantity", "Note",...)
+
+# subsetting the main table
+letter_A <- subset(lista_reagenti, filter_name == "A")
+
+#letter_A$Quantity <- as.numeric(letter_A$Quantity)
+
+
+```
 
 ### Last update: 28 / 05 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
@@ -29,4 +44,38 @@ library(icon)
 
 ---
 
+### To buy:
+- ...
+
+---
+
+## A
+
+```{r echo=FALSE}
+
+letter_A[,1:6] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 18) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## B
+
+
+
 in progress...
+
+
+
