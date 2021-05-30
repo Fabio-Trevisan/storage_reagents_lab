@@ -38,10 +38,10 @@ Code block  #2469e0; (hyperlinks)
 }
 
 
-/* Text styles*/
-td {  /* Table  */
-  /*font-size: 16px;*/
-}
+/* Text styles
+td { 
+  font-size: 16px;
+}*/
 
 .table-striped > tbody > tr:nth-of-type(2n+1) {
     background-color: #03A6851A;
