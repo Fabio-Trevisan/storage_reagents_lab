@@ -16,7 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 library(icon)
 ```
 
----
 
 <!-- `r icon_style(fontawesome$solid$"tools", rotate = 0, scale = 3, fill = "#000000")` -->
 

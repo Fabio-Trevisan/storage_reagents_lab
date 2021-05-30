@@ -1,0 +1,34 @@
+﻿Item;Volume;Bags;n per bag;Total;filter_name
+Eppendorf tubes;2 mL;14;1000;14000;plastic_tubes
+Eppendorf tubes;1.5 mL;1;500;500;plastic_tubes
+Eppendorf tubes;1.5 mL;5;1000;5000;plastic_tubes
+Eppendorf tubes;5 mL;1;200;200;plastic_tubes
+tips;10 uL;4;1000;4000;plastic_tips
+tips + filter + box;10 uL;40;96;3840;plastic_tips
+tips;20 uL;6;1000;6000;plastic_tips
+tips + filter + box;20 uL;90;96;8640;plastic_tips
+tips;200 uL;4;1000;4000;plastic_tips
+tips + filter + box;200 uL;30;96;2880;plastic_tips
+tips;1000 uL;32;250;8000;plastic_tips
+tips;1000 uL;6;500;3000;plastic_tips
+tips;1000 uL;9;1000;9000;plastic_tips
+tips;5000 uL;7;334;2338;plastic_tips
+tips;5000 uL;11;100;1100;plastic_tips
+syringes;5 mL;8;100;800;syringes
+syringes;10 mL;5;100;500;syringes
+syringes;50 mL;4;50;200;syringes
+filters for syringes;0.45 um;4;500;2000;syringes
+glass tubes;-;47;250;11750;glass_tubes
+petri with divider;10 cm;24;20;480;petri
+petri;10 cm;113;10;1130;petri
+petri;12 cm;46;10;460;petri
+falcon;15 mL;10;500;5000;falcon
+falcon;50 mL;8;100;800;falcon
+falcon + filter;50 mL;5.5;24;132;falcon
+paper filters;-;15;100;1500;paper_filters
+pasteur;-;5;500;2500;pasteur
+cuvettes;-;3;100;300;cuvettes
+cuvettes;-;9;100;900;cuvettes
+cuvettes;-;2;100;200;cuvettes
+cuvettes;-;2;100;200;cuvettes
+mini plastic pots (yellow lid);70 mL;2;250;500;plastic_pots

@@ -1,0 +1,111 @@
+---
+title: "Storage K -1"
+
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: false
+    toc_depth: 2
+    # number_sections: true
+    #theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(icon)
+```
+
+### Last update: 28 / 05 / 2021
+#### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
+
+---
+
+### Last changes:
+- 28/05/2021 - List created
+
+---
+
+## Plastic tubes
+
+| Plastic tubes   | Volume | Bags / Box | n° per bag / box | Total |
+|-----------------|--------|------------|------------------|-------|
+| Eppendorf tubes | 2 mL   | 14         | 1000             | 14000 |
+| Eppendorf tubes | 1.5 mL | 1          | 500              | 500   |
+| Eppendorf tubes | 1.5 mL | 5          | 1000             | 5000  |
+| Eppendorf tubes | 5 mL   | 1          | 200              | 200   |
+
+## Plastic tips
+
+| Plastic tips        | Volume  | Bags / Box | n° per bag / box | Total |
+|---------------------|---------|------------|------------------|-------|
+| tips                | 10 uL   | 4          | 1000             | 4000  |
+| tips + filter + box | 10 uL   | 40         | 96               | 3840  |
+| tips                | 20 uL   | 6          | 1000             | 6000  |
+| tips + filter + box | 20 uL   | 90         | 96               | 8640  |
+| tips                | 200 uL  | 4          | 1000             | 4000  |
+| tips + filter + box | 200 uL  | 30         | 96               | 2880  |
+| tips                | 1000 uL | 32         | 250              | 8000  |
+| tips                | 1000 uL | 6          | 500              | 3000  |
+| tips                | 1000 uL | 9          | 1000             | 9000  |
+| tips                | 5000 uL | 7          | 334              | 2338  |
+| tips                | 5000 uL | 11         | 100              | 1100  |
+
+## Syringes
+
+| Syringes             | Volume  | Bags / Box | n° per bag / box | Total |
+|----------------------|---------|------------|------------------|-------|
+| syringes             | 5 mL    | 8          | 100              | 800   |
+| syringes             | 10 mL   | 5          | 100              | 500   |
+| syringes             | 50 mL   | 4          | 50               | 200   |
+| filters for syringes | 0.45 um | 4          | 500              | 2000  |
+
+## Glass tubes (mineralization)
+
+| Glass tubes (mineralization) | Volume | Bags / Box | n° per bag / box | Total |
+|------------------------------|--------|------------|------------------|-------|
+| glass tubes                  |  -     | 47         | 250              | 11750 |
+
+## Petri dishes
+
+| Petri dishes       | Volume | Bags / Box | n° per bag / box | Total |
+|--------------------|--------|------------|------------------|-------|
+| petri with divider | 10 cm  | 24         | 20               | 480   |
+| petri              | 10 cm  | 113        | 10               | 1130  |
+| petri              | 12 cm  | 46         | 10               | 460   |
+
+## Flacon tubes
+
+| Flacon tubes    | Volume | Bags / Box | n° per bag / box | Total |
+|-----------------|--------|------------|------------------|-------|
+| falcon          | 15 mL  | 10         | 50               | 500   |
+| falcon          | 50 mL  | 8          | 100              | 800   |
+| falcon + filter | 50 mL  | 5.5        | 24               | 132   |
+
+## Paper filters
+
+| Paper filters | Volume | Bags / Box | n° per bag / box | Total |
+|---------------|--------|------------|------------------|-------|
+| paper filters | -      | 15         | 100              | 1500  |
+
+## Pasteur
+
+| Pasteur | Volume | Bags / Box | n° per bag / box | Total |
+|---------|--------|------------|------------------|-------|
+| pasteur | -      | 5          | 500              | 2500  |
+
+## Cuvette
+
+| Cuvettes | Volume | Bags / Box | n° per bag / box | Total |
+|----------|--------|------------|------------------|-------|
+| cuvettes |        | 3          | 100              | 300   |
+| cuvettes |        | 9          | 100              | 900   |
+| cuvettes |        | 2          | 100              | 200   |
+| cuvettes |        | 2          | 100              | 200   |
+
+## Plastic pots
+
+| Plastic pots                   | Volume | Bags / Box | n° per bag / box | Total |
+|--------------------------------|--------|------------|------------------|-------|
+| mini plastic pots (yellow lid) | 70 mL  | 2          | 250              | 500   |
+

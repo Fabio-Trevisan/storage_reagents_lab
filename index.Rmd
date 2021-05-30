@@ -13,7 +13,39 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(icon)
+#library(icon)
+library(kableExtra)
+```
+
+```{r include=FALSE}
+
+# loading the main table from csv
+lista_consumabili <- read.csv2("consumabili_270521.csv", header = TRUE)
+
+colnames(lista_consumabili) <- c("", "Volume", "Bags / Box", "n° per bag / box", "Total", "filter_name")
+
+# subsetting the main table
+plastic_tubes <- subset(lista_consumabili, filter_name == "plastic_tubes")
+
+plastic_tips <- subset(lista_consumabili, filter_name == "plastic_tips")
+
+syringes <- subset(lista_consumabili, filter_name == "syringes")
+
+glass_tubes <- subset(lista_consumabili, filter_name == "glass_tubes")
+
+petri <- subset(lista_consumabili, filter_name == "petri")
+
+colnames(petri) <- c("", "Diameter", "Bags / Box", "n° per bag / box", "Total", "filter_name")
+
+falcon <- subset(lista_consumabili, filter_name == "falcon")
+
+paper_filters <- subset(lista_consumabili, filter_name == "paper_filters")
+
+pasteur <- subset(lista_consumabili, filter_name == "pasteur")
+
+cuvettes <- subset(lista_consumabili, filter_name == "cuvettes")
+
+plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
 ```
 
 ### Last update: 28 / 05 / 2021
@@ -26,86 +58,88 @@ library(icon)
 
 ---
 
+### To buy:
+- ...
+
+---
+
 ## Plastic tubes
 
-| Plastic tubes   | Volume | Bags / Box | n° per bag / box | Total |
-|-----------------|--------|------------|------------------|-------|
-| Eppendorf tubes | 2 mL   | 14         | 1000             | 14000 |
-| Eppendorf tubes | 1.5 mL | 1          | 500              | 500   |
-| Eppendorf tubes | 1.5 mL | 5          | 1000             | 5000  |
-| Eppendorf tubes | 5 mL   | 1          | 200              | 200   |
+```{r echo=FALSE}
+plastic_tubes[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Plastic tips
 
-| Plastic tips        | Volume  | Bags / Box | n° per bag / box | Total |
-|---------------------|---------|------------|------------------|-------|
-| tips                | 10 uL   | 4          | 1000             | 4000  |
-| tips + filter + box | 10 uL   | 40         | 96               | 3840  |
-| tips                | 20 uL   | 6          | 1000             | 6000  |
-| tips + filter + box | 20 uL   | 90         | 96               | 8640  |
-| tips                | 200 uL  | 4          | 1000             | 4000  |
-| tips + filter + box | 200 uL  | 30         | 96               | 2880  |
-| tips                | 1000 uL | 32         | 250              | 8000  |
-| tips                | 1000 uL | 6          | 500              | 3000  |
-| tips                | 1000 uL | 9          | 1000             | 9000  |
-| tips                | 5000 uL | 7          | 334              | 2338  |
-| tips                | 5000 uL | 11         | 100              | 1100  |
+```{r echo=FALSE}
+plastic_tips[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
+
+## Falcon tubes
+
+```{r echo=FALSE}
+falcon[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Syringes
 
-| Syringes             | Volume  | Bags / Box | n° per bag / box | Total |
-|----------------------|---------|------------|------------------|-------|
-| syringes             | 5 mL    | 8          | 100              | 800   |
-| syringes             | 10 mL   | 5          | 100              | 500   |
-| syringes             | 50 mL   | 4          | 50               | 200   |
-| filters for syringes | 0.45 um | 4          | 500              | 2000  |
+```{r echo=FALSE}
+syringes[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Glass tubes (mineralization)
 
-| Glass tubes (mineralization) | Volume | Bags / Box | n° per bag / box | Total |
-|------------------------------|--------|------------|------------------|-------|
-| glass tubes                  |  -     | 47         | 250              | 11750 |
+```{r echo=FALSE}
+glass_tubes[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Petri dishes
 
-| Petri dishes       | Volume | Bags / Box | n° per bag / box | Total |
-|--------------------|--------|------------|------------------|-------|
-| petri with divider | 10 cm  | 24         | 20               | 480   |
-| petri              | 10 cm  | 113        | 10               | 1130  |
-| petri              | 12 cm  | 46         | 10               | 460   |
-
-## Flacon tubes
-
-| Flacon tubes    | Volume | Bags / Box | n° per bag / box | Total |
-|-----------------|--------|------------|------------------|-------|
-| falcon          | 15 mL  | 10         | 50               | 500   |
-| falcon          | 50 mL  | 8          | 100              | 800   |
-| falcon + filter | 50 mL  | 5.5        | 24               | 132   |
+```{r echo=FALSE}
+petri[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Paper filters
 
-| Paper filters | Volume | Bags / Box | n° per bag / box | Total |
-|---------------|--------|------------|------------------|-------|
-| paper filters | -      | 15         | 100              | 1500  |
+```{r echo=FALSE}
+paper_filters[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
+
+## Cuvettes
+
+```{r echo=FALSE}
+cuvettes[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Pasteur
 
-| Pasteur | Volume | Bags / Box | n° per bag / box | Total |
-|---------|--------|------------|------------------|-------|
-| pasteur | -      | 5          | 500              | 2500  |
-
-## Cuvette
-
-| Cuvettes | Volume | Bags / Box | n° per bag / box | Total |
-|----------|--------|------------|------------------|-------|
-| cuvettes |        | 3          | 100              | 300   |
-| cuvettes |        | 9          | 100              | 900   |
-| cuvettes |        | 2          | 100              | 200   |
-| cuvettes |        | 2          | 100              | 200   |
+```{r echo=FALSE}
+pasteur[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
 ## Plastic pots
 
-| Plastic pots                   | Volume | Bags / Box | n° per bag / box | Total |
-|--------------------------------|--------|------------|------------------|-------|
-| mini plastic pots (yellow lid) | 70 mL  | 2          | 250              | 500   |
+```{r echo=FALSE}
+plastic_pots[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+```
 
