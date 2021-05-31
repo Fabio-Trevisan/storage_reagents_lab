@@ -1,5 +1,5 @@
 ---
-title: "Lab 1.20"
+title: "Reagents"
 
 output: 
   html_document:
@@ -29,17 +29,68 @@ lista_reagenti <- read.csv2("reagenti_270521.csv", header = TRUE)
 # subsetting the main table
 letter_A <- subset(lista_reagenti, filter_name == "A")
 
+letter_B <- subset(lista_reagenti, filter_name == "B")
+
+letter_C <- subset(lista_reagenti, filter_name == "C")
+
+letter_D <- subset(lista_reagenti, filter_name == "D")
+
+letter_E <- subset(lista_reagenti, filter_name == "E")
+
+letter_F <- subset(lista_reagenti, filter_name == "F")
+
+letter_G <- subset(lista_reagenti, filter_name == "G")
+
+letter_H <- subset(lista_reagenti, filter_name == "H")
+
+letter_I <- subset(lista_reagenti, filter_name == "I")
+
+letter_J <- subset(lista_reagenti, filter_name == "J")
+
+letter_K <- subset(lista_reagenti, filter_name == "K")
+
+letter_L <- subset(lista_reagenti, filter_name == "L")
+
+letter_M <- subset(lista_reagenti, filter_name == "M")
+
+letter_N <- subset(lista_reagenti, filter_name == "N")
+
+letter_O <- subset(lista_reagenti, filter_name == "O")
+
+letter_P <- subset(lista_reagenti, filter_name == "P")
+
+letter_Q <- subset(lista_reagenti, filter_name == "Q")
+
+letter_R <- subset(lista_reagenti, filter_name == "R")
+
+letter_S <- subset(lista_reagenti, filter_name == "S")
+
+letter_T <- subset(lista_reagenti, filter_name == "T")
+
+letter_U <- subset(lista_reagenti, filter_name == "U")
+
+letter_V <- subset(lista_reagenti, filter_name == "V")
+
+letter_W <- subset(lista_reagenti, filter_name == "W")
+
+letter_X <- subset(lista_reagenti, filter_name == "X")
+
+letter_Y <- subset(lista_reagenti, filter_name == "Y")
+
+letter_Z <- subset(lista_reagenti, filter_name == "Z")
+
 #letter_A$Quantity <- as.numeric(letter_A$Quantity)
 
 
 ```
 
-### Last update: 28 / 05 / 2021
+### Last update: 31 / 05 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 31/05/2021 - List updated (80%)
 - 28/05/2021 - List created
 
 ---
@@ -53,7 +104,7 @@ letter_A <- subset(lista_reagenti, filter_name == "A")
 
 ```{r echo=FALSE}
 
-letter_A[,1:6] %>%
+letter_A[,1:7] %>%
   # mutate(
   #   Reagent = ifelse(Quantity == 0 | Note == "ending",
   #                 cell_spec(Reagent, "html", color = "red", bold = T),
@@ -66,16 +117,558 @@ letter_A[,1:6] %>%
   #   #               cell_spec(Note, "html"))
   # ) %>%
   kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 18) 
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
   
 ```
 
 ## B
 
+```{r echo=FALSE}
 
+letter_B[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
 
-in progress...
+## C
 
+```{r echo=FALSE}
 
+letter_C[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## D
+
+```{r echo=FALSE}
+
+letter_D[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## E
+
+```{r echo=FALSE}
+
+letter_E[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## F
+
+```{r echo=FALSE}
+
+letter_F[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## G
+
+```{r echo=FALSE}
+
+letter_G[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## H
+
+```{r echo=FALSE}
+
+letter_H[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## I
+
+```{r echo=FALSE}
+
+letter_I[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+<!-- ## J -->
+
+<!-- ```{r echo=FALSE} -->
+
+<!-- letter_J[,1:7] %>% -->
+<!--   # mutate( -->
+<!--   #   Reagent = ifelse(Quantity == 0 | Note == "ending", -->
+<!--   #                 cell_spec(Reagent, "html", color = "red", bold = T), -->
+<!--   #                 cell_spec(Reagent, "html")), -->
+<!--   #   Quantity = ifelse(Quantity > 0, -->
+<!--   #                 cell_spec(Quantity, "html"), -->
+<!--   #                 cell_spec(Quantity, "html", color = "red", bold = T)), -->
+<!--   #   # Note = ifelse(Note == "not found" | Note =="ending", -->
+<!--   #   #               cell_spec(Note, "html", color = "red", bold = T), -->
+<!--   #   #               cell_spec(Note, "html")) -->
+<!--   # ) %>% -->
+<!--   kable(row.names = FALSE, align = "l","html", escape = F) %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)  -->
+<!--   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange")) -->
+
+<!-- ``` -->
+
+## K
+
+```{r echo=FALSE}
+
+letter_K[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## L
+
+```{r echo=FALSE}
+
+letter_L[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## M
+
+```{r echo=FALSE}
+
+letter_M[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## N
+
+```{r echo=FALSE}
+
+letter_N[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## O
+
+```{r echo=FALSE}
+
+letter_O[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## P
+
+```{r echo=FALSE}
+
+letter_P[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## Q
+
+```{r echo=FALSE}
+
+letter_Q[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## R
+
+```{r echo=FALSE}
+
+letter_R[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## S
+
+```{r echo=FALSE}
+
+letter_S[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## T
+
+```{r echo=FALSE}
+
+letter_T[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## U
+
+```{r echo=FALSE}
+
+letter_U[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+## V
+
+```{r echo=FALSE}
+
+letter_V[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+<!-- ## W -->
+
+<!-- ```{r echo=FALSE} -->
+
+<!-- letter_W[,1:7] %>% -->
+<!--   # mutate( -->
+<!--   #   Reagent = ifelse(Quantity == 0 | Note == "ending", -->
+<!--   #                 cell_spec(Reagent, "html", color = "red", bold = T), -->
+<!--   #                 cell_spec(Reagent, "html")), -->
+<!--   #   Quantity = ifelse(Quantity > 0, -->
+<!--   #                 cell_spec(Quantity, "html"), -->
+<!--   #                 cell_spec(Quantity, "html", color = "red", bold = T)), -->
+<!--   #   # Note = ifelse(Note == "not found" | Note =="ending", -->
+<!--   #   #               cell_spec(Note, "html", color = "red", bold = T), -->
+<!--   #   #               cell_spec(Note, "html")) -->
+<!--   # ) %>% -->
+<!--   kable(row.names = FALSE, align = "l","html", escape = F) %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)  -->
+<!--   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange")) -->
+
+<!-- ``` -->
+
+## X
+
+```{r echo=FALSE}
+
+letter_X[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16) 
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
+  
+```
+
+<!-- ## Y -->
+
+<!-- ```{r echo=FALSE} -->
+
+<!-- letter_Y[,1:7] %>% -->
+<!--   # mutate( -->
+<!--   #   Reagent = ifelse(Quantity == 0 | Note == "ending", -->
+<!--   #                 cell_spec(Reagent, "html", color = "red", bold = T), -->
+<!--   #                 cell_spec(Reagent, "html")), -->
+<!--   #   Quantity = ifelse(Quantity > 0, -->
+<!--   #                 cell_spec(Quantity, "html"), -->
+<!--   #                 cell_spec(Quantity, "html", color = "red", bold = T)), -->
+<!--   #   # Note = ifelse(Note == "not found" | Note =="ending", -->
+<!--   #   #               cell_spec(Note, "html", color = "red", bold = T), -->
+<!--   #   #               cell_spec(Note, "html")) -->
+<!--   # ) %>% -->
+<!--   kable(row.names = FALSE, align = "l","html", escape = F) %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)  -->
+<!--   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange")) -->
+
+<!-- ``` -->
+
+<!-- ## Z -->
+
+<!-- ```{r echo=FALSE} -->
+
+<!-- letter_Z[,1:7] %>% -->
+<!--   # mutate( -->
+<!--   #   Reagent = ifelse(Quantity == 0 | Note == "ending", -->
+<!--   #                 cell_spec(Reagent, "html", color = "red", bold = T), -->
+<!--   #                 cell_spec(Reagent, "html")), -->
+<!--   #   Quantity = ifelse(Quantity > 0, -->
+<!--   #                 cell_spec(Quantity, "html"), -->
+<!--   #                 cell_spec(Quantity, "html", color = "red", bold = T)), -->
+<!--   #   # Note = ifelse(Note == "not found" | Note =="ending", -->
+<!--   #   #               cell_spec(Note, "html", color = "red", bold = T), -->
+<!--   #   #               cell_spec(Note, "html")) -->
+<!--   # ) %>% -->
+<!--   kable(row.names = FALSE, align = "l","html", escape = F) %>% -->
+<!--   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)  -->
+<!--   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange")) -->
+
+<!-- ``` -->
 

@@ -26,7 +26,7 @@ falcon;15 mL;10;50;500;falcon
 falcon;50 mL;8;100;800;falcon
 falcon + filter;50 mL;5.5;24;132;falcon
 paper filters;-;15;100;1500;paper_filters
-pasteur;-;5;500;2500;pasteur
+pasteur;3 mL;5;500;2500;pasteur
 cuvettes;-;3;100;300;cuvettes
 cuvettes;-;9;100;900;cuvettes
 cuvettes;-;2;100;200;cuvettes
