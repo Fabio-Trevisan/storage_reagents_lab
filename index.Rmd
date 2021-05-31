@@ -68,7 +68,7 @@ plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
 ```{r echo=FALSE}
 plastic_tubes[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Plastic tips
@@ -76,7 +76,7 @@ plastic_tubes[,1:5] %>%
 ```{r echo=FALSE}
 plastic_tips[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Falcon tubes
@@ -84,7 +84,7 @@ plastic_tips[,1:5] %>%
 ```{r echo=FALSE}
 falcon[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Syringes
@@ -92,7 +92,7 @@ falcon[,1:5] %>%
 ```{r echo=FALSE}
 syringes[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Glass tubes (mineralization)
@@ -100,7 +100,7 @@ syringes[,1:5] %>%
 ```{r echo=FALSE}
 glass_tubes[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Petri dishes
@@ -108,7 +108,7 @@ glass_tubes[,1:5] %>%
 ```{r echo=FALSE}
 petri[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Paper filters
@@ -116,7 +116,7 @@ petri[,1:5] %>%
 ```{r echo=FALSE}
 paper_filters[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Cuvettes
@@ -124,7 +124,7 @@ paper_filters[,1:5] %>%
 ```{r echo=FALSE}
 cuvettes[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Pasteur
@@ -132,7 +132,7 @@ cuvettes[,1:5] %>%
 ```{r echo=FALSE}
 pasteur[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
 ## Plastic pots
@@ -140,6 +140,6 @@ pasteur[,1:5] %>%
 ```{r echo=FALSE}
 plastic_pots[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 18)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
 
