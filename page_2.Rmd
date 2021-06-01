@@ -84,14 +84,15 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 
 ```
 
-### Last update: 31 / 05 / 2021
+### Last update: 01 / 06 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
-- 31/05/2021 - List updated (80%)
-- 28/05/2021 - List created
+- 01/06/2021 - List updated (90%) - Mauro
+- 31/05/2021 - List updated (70%) - Mauro
+- 28/05/2021 - List created - Mauro
 
 ---
 
@@ -628,47 +629,47 @@ letter_X[,1:7] %>%
   
 ```
 
-<!-- ## Y -->
+## Y
 
-<!-- ```{r echo=FALSE} -->
+```{r echo=FALSE}
 
-<!-- letter_Y[,1:7] %>% -->
-<!--   # mutate( -->
-<!--   #   Reagent = ifelse(Quantity == 0 | Note == "ending", -->
-<!--   #                 cell_spec(Reagent, "html", color = "red", bold = T), -->
-<!--   #                 cell_spec(Reagent, "html")), -->
-<!--   #   Quantity = ifelse(Quantity > 0, -->
-<!--   #                 cell_spec(Quantity, "html"), -->
-<!--   #                 cell_spec(Quantity, "html", color = "red", bold = T)), -->
-<!--   #   # Note = ifelse(Note == "not found" | Note =="ending", -->
-<!--   #   #               cell_spec(Note, "html", color = "red", bold = T), -->
-<!--   #   #               cell_spec(Note, "html")) -->
-<!--   # ) %>% -->
-<!--   kable(row.names = FALSE, align = "l","html", escape = F) %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)  -->
-<!--   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange")) -->
+letter_Y[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
 
-<!-- ``` -->
+```
 
-<!-- ## Z -->
+## Z
 
-<!-- ```{r echo=FALSE} -->
+```{r echo=FALSE}
 
-<!-- letter_Z[,1:7] %>% -->
-<!--   # mutate( -->
-<!--   #   Reagent = ifelse(Quantity == 0 | Note == "ending", -->
-<!--   #                 cell_spec(Reagent, "html", color = "red", bold = T), -->
-<!--   #                 cell_spec(Reagent, "html")), -->
-<!--   #   Quantity = ifelse(Quantity > 0, -->
-<!--   #                 cell_spec(Quantity, "html"), -->
-<!--   #                 cell_spec(Quantity, "html", color = "red", bold = T)), -->
-<!--   #   # Note = ifelse(Note == "not found" | Note =="ending", -->
-<!--   #   #               cell_spec(Note, "html", color = "red", bold = T), -->
-<!--   #   #               cell_spec(Note, "html")) -->
-<!--   # ) %>% -->
-<!--   kable(row.names = FALSE, align = "l","html", escape = F) %>% -->
-<!--   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)  -->
-<!--   #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange")) -->
+letter_Z[,1:7] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)
+  #column_spec(5, background = ifelse(letter_A[,1:6]$Quantity >= 4, "white", "orange"))
 
-<!-- ``` -->
+```
 
