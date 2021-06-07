@@ -223,7 +223,7 @@ Sodium azide;S2002;SIGMA;100 g;1;;Lab 1.20;S;;lab_1_20
 Sodium chloride;S30…;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
 Sodium chloride;71376;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
 Sodium citrate tribasic dihydrate;C3771;SIGMA;500 g;1;new;K 1;S;;K_1
-Sodium deoxyenolate;D6750;SIGMA;250 g;1;new;Lab 1.20;S;;lab_1_20
+Sodium deoxycholate;D6750;SIGMA;25 g;1;;Lab 1.20;S;;lab_1_20
 Sodium dodecyl sulphate;L3771;SIGMA;100 g;1;;Lab 1.20;S;;lab_1_20
 Sodium dodecyl sulphate;71725;;100 g;1;;Lab 1.20;S;;lab_1_20
 Sodium hydroxide;S8045;SIGMA;500 g;1;new;Lab 1.20;S;;lab_1_20
@@ -257,11 +257,10 @@ Tryptone enzymatic diest from casein;95039;FLUKA;1 Kg;1;almost empty;Lab 1.20;T;
 Tyramine;80345;SIGMA;100 mg;1;;Lab 1.20;T;;lab_1_20
 Urea;U5378;SIGMA;100 g;1;;Lab 1.20;U;;lab_1_20
 Urea;U5378;SIGMA;300 g;1;new;Lab 1.20;U;;lab_1_20
-Urea;490970;;25 g;1;to check;Lab 1.20;U;;lab_1_20
+Urea;490970;SIGMA;25 g;1;almost empty;Lab 1.20;U;;lab_1_20
 Vanillic acid;94770;SIGMA;10 g;1;;Lab 1.20;V;;lab_1_20
 Xylene;X4126;SIGMA;10 g;1;;Lab 1.20;X;;lab_1_20
-Xylitol;W507930;SIGMA;1 Kg;1;new;Lab 1.20;X;;lab_1_20
-Xylitol;X3375;SIGMA;25 g;1;;Lab 1.20;X;;lab_1_20
+Xylitol;W507930;SIGMA;1 Kg;1;;Lab 1.20;X;;lab_1_20
 y-Aminobutyric acid;A5835;SIGMA;10 g;1;;Lab 1.20;A;;lab_1_20
 Yeast extract;70161;FLUKA;500 g;1;;Lab 1.20;Y;;lab_1_20
 Zinc nitrate hxahyrate;A16282;SIGMA;100 g;1;;Lab 1.20;Z;;lab_1_20
