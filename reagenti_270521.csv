@@ -18,6 +18,8 @@
 Acetic acid;320099;SIGMA;500 mL;1;almost empty;Lab 1.20;A;;lab_1_20
 Acetic acid;UN2789;PROLABO;1 L;1;;Lab 1.20;A;;lab_1_20
 Acetic acid glacial;1.00063.1000;;1 L;1;almost empty;Lab 1.20;A;;lab_1_20
+Acetonitrile (LC-MS);;RIEDEL DE HAEN;2.5 L;2;;Lab 1.22;A;;lab_1_22
+Acetonitrile (HPLC);;RIEDEL DE HAEN;2.5 L;8;;Lab 1.22;A;;lab_1_22
 Acetonitrile;34851;HONEYWELL;2.5 L;5;2 new;Lab 1.20;A;;lab_1_20
 Acrylamide solution;1697;FLUKA;500 mL;1;;Lab 1.20;A;;lab_1_20
 Acrylamide solution ;A3632.1000;;1 L;1;;Lab 1.20;A;;lab_1_20
@@ -123,7 +125,7 @@ Glycerol;H5433;;1 L;1;;Lab 1.20;G;;lab_1_20
 Glycine;410225;SIGMA;50 g;1;;Lab 1.20;G;;lab_1_20
 Glycine-1-13C;279420;SIGMA;1 g;1;;Lab 1.20;G;;lab_1_20
 Gramine;G10806;SIGMA;25 g;3;1 new;Lab 1.20;G;;lab_1_20
-Guaiacol;W253200;;1 Kg;1;new;Lab 1.20;G;;lab_1_20
+Guaiacol;W253200;;1 Kg;1;;Lab 1.20;G;;lab_1_20
 Hepes;H337;SIGMA;500 g;1;;Lab 1.20;H;;lab_1_20
 Hepes;H4034;SIGMA;500 g;1;;Lab 1.20;H;;lab_1_20
 Hordenine;4476;SIGMA;1 g;1;;Lab 1.20;H;;lab_1_20
@@ -134,6 +136,7 @@ Iron (II) chloride;157740;SIGMA;100 g;1;;Lab 1.20;I;;lab_1_20
 Iron (II) chloride tetrahydrate;44939;SIGMA;1 Kg;1;;Lab 1.20;I;;lab_1_20
 Iron (III) nitrate nonahydrate;216828;SIGMA;250 g;1;new;Lab 1.20;I;;lab_1_20
 Isoamyl alcohol 25:24:1;6M010387;;250 mL;1;;Lab 1.20;I;;lab_1_20
+Isopropyl alcohol;33539;SIGMA;2.5 L;1;;Lab 1.22;I;;lab_1_22
 Isopropyl alcohol;33539;SIGMA;2.5 L;1;;Lab 1.20;I;;lab_1_20
 Kaempferol;60010;SIGMA;25 mg;1;;Lab 1.20;K;;lab_1_20
 L-(-)-Malic acid;M6413;SIGMA;25 g;1;;Lab 1.20;M;;lab_1_20
@@ -146,7 +149,7 @@ L-Glutamine;76523;SIGMA;100 mg;1;;Lab 1.20;G;;lab_1_20
 L-Glutathione oxidized;G4376;SIGMA;250 mg;1;;Lab 1.20;G;;lab_1_20
 L-Glutathione reduced;G4251;SIGMA;1 g;1;;Lab 1.20;G;;lab_1_20
 L-Tryptophan;T0254;SIGMA;100 g;1;new;Lab 1.20;T;;lab_1_20
-LB Broth (Miller);L3522;SIGMA;1 Kg;1;;Lab 1.20;L;;lab_1_20
+LB Broth (Miller);L3522;SIGMA;1 Kg;2;;Lab 1.20;L;;lab_1_20
 Lithium chloride;L9630;SIGMA;100 g;1;new;Lab 1.20;L;;lab_1_20
 Magnesium chloride hexahydrate;162;SIGMA;250 g;1;;Lab 1.20;M;;lab_1_20
 Magnesium nitrate hexahydrate;63084;SIGMA;1 Kg;2;1 new;Lab 1.20;M;;lab_1_20
@@ -162,9 +165,12 @@ Manganese (II) sulphate monohydrate;M7634;SIGMA;100 g;1;;Lab 1.20;M;;lab_1_20
 Manganese (II) sulphate monohydrate;M8179;SIGMA;100 g;1;;K -1;M;;K_-1
 MES hydrate;M8250;SIGMA;250 g;1;;Lab 1.20;M;;lab_1_20
 MES hydrate;M8250;SIGMA;100 g;1;new;Lab 1.20;M;;lab_1_20
+Methanol (HPLC);;VWR;2.5 L;4;;Lab 1.22;M;;lab_1_22
+Methanol (HPLC);;RIEDEL DE HAEN;2.5 L;4;;Lab 1.22;M;;lab_1_22
 Methanol;34966;HONEYWELL;2.5 L;3;2 new;Lab 1.20;M;;lab_1_20
 Methyl jasmonate;W341002;SIGMA;25 g;1;;Lab 1.20;M;;lab_1_20
 MOPS;M1254;SIGMA;100 g;1;;Lab 1.20;M;;lab_1_20
+Murashige & Skoog medium M407;;PHYTOTECH;30 g;3;2 new;Lab 1.22;M;;lab_1_22
 Murashige & Skoog medium;M0221.005;DUCHEFA;215.1 g;1;;Lab 1.20;M;;lab_1_20
 N-Methyl-4-tyramine;OR-4655;SIGMA;5 g;1;new;Lab 1.20;M;;lab_1_20
 N,N,N',N'-Tetramethyl-ethylenediamine;T9281;SIGMA;25 mL;1;;Lab 1.20;T;;lab_1_20
@@ -174,7 +180,9 @@ Naptalam;33371;;100 mg;1;new;Lab 1.20;N;;lab_1_20
 Neutralization solution (NSC);11570;PROMEGA;36 mL;1;;Lab 1.20;N;;lab_1_20
 Nickel (II) chloride hexahydrate;203866;SIGMA;25 g;1;;Lab 1.20;N;;lab_1_20
 Nitric acid;84385;FLUKA;500 mL;1;;Lab 1.20;N;;lab_1_20
-Nitric acid;84385;HONEYWELL;1 L;5;4 new;Lab 1.20;N;;lab_1_20
+Nitric acid 69%;84385;HONEYWELL;1 L;8;;Lab 1.22;N;;lab_1_22
+Nitric acid 69%;84385;HONEYWELL;1 L;5;4 new;Lab 1.20;N;;lab_1_20
+Nitric acid 67%-69%;;CARLO ERBA;2.5 L;3;;Lab 1.22;N;;lab_1_22
 Nutrient agar;CM0003;OXOID;500 g;2;1 new;Lab 1.20;N;;lab_1_20
 Oxalic acid;194131;SIGMA;250 g;1;;Lab 1.20;O;;lab_1_20
 p-Coumaric acid;C9008;SIGMA;5 g;1;;Lab 1.20;C;;lab_1_20
@@ -238,7 +246,9 @@ Spiraeoside;1201;;10 mg;1;;Lab 1.20;S;;lab_1_20
 Succinic acid;S3674;SIGMA;100 g;1;;Lab 1.20;S;;lab_1_20
 Sucrose;84097;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
 Sucrose;84097;SIGMA;250 g;1;;Lab 1.20;S;;lab_1_20
-Sulfuric acid;1.090721;;1 L;4;2 new;Lab 1.20;S;;lab_1_20
+Sulfuric acid;1.090721;MERCK;4 L;3;3 new;Lab 1.22;S;;lab_1_22
+Sulfuric acid;1.090721;MERCK;1 L;3;2 new;Lab 1.20;S;;lab_1_20
+Sulfuric acid;61600304;ALFA AESAR;1 L;3;;Lab 1.22;S;;lab_1_22
 Sulfuric acid;61600304;ALFA AESAR;1 L;1;;Lab 1.20;S;;lab_1_20
 Sulfuric acid;258105;HONEYWELL;2.5 L;1;;Lab 1.20;S;;lab_1_20
 Syringic acid;S6881;SIGMA;5 g;1;;Lab 1.20;S;;lab_1_20

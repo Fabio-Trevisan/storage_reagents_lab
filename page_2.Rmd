@@ -84,12 +84,13 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 
 ```
 
-### Last update: 07 / 06 / 2021
+### Last update: 10 / 06 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 10/06/2021 - List updated (95%) - Mauro
 - 07/06/2021 - Xylitol 25g empty and removed (Simon) - Mauro
 - 01/06/2021 - List updated (90%) - Mauro
 - 31/05/2021 - List updated (70%) - Mauro
