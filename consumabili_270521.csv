@@ -2,6 +2,7 @@
 Eppendorf tubes;2 mL;14;1000;14000;plastic_tubes
 Eppendorf tubes;1.5 mL;1;500;500;plastic_tubes
 Eppendorf tubes;1.5 mL;5;1000;5000;plastic_tubes
+Eppendorf tubes;5 mL;3;250;750;plastic_tubes
 Eppendorf tubes;5 mL;1;200;200;plastic_tubes
 tips;10 uL;4;1000;4000;plastic_tips
 tips + filter + box;10 uL;40;96;3840;plastic_tips
@@ -22,10 +23,13 @@ glass tubes;-;47;250;11750;glass_tubes
 petri with divider;10 cm;24;20;480;petri
 petri;10 cm;113;10;1130;petri
 petri;12 cm;46;10;460;petri
+falcon;15 mL;9;40;360;falcon
 falcon;15 mL;10;50;500;falcon
-falcon;50 mL;8;100;800;falcon
+falcon;50 mL;19;25;475;falcon
+falcon;50 mL;18;100;1800;falcon
 falcon + filter;50 mL;5.5;24;132;falcon
-paper filters;-;15;100;1500;paper_filters
+filter paper Whatman;-;6;100;600;paper_filters
+filter paper foldable;-;15;100;1500;paper_filters
 pasteur;3 mL;5;500;2500;pasteur
 cuvettes;-;3;100;300;cuvettes
 cuvettes;-;9;100;900;cuvettes
