@@ -46,14 +46,17 @@ pasteur <- subset(lista_consumabili, filter_name == "pasteur")
 cuvettes <- subset(lista_consumabili, filter_name == "cuvettes")
 
 plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
+
+tecan <- subset(lista_consumabili, filter_name == "tecan")
 ```
 
-### Last update: 14 / 06 / 2021
+### Last update: 07 / 09 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 07/09/2021 - List updated - Mauro
 - 14/05/2021 - List updated - Mauro
 - 28/05/2021 - List created
 
@@ -140,6 +143,14 @@ pasteur[,1:5] %>%
 
 ```{r echo=FALSE}
 plastic_pots[,1:5] %>%
+  kable(row.names = FALSE, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
+```
+
+## Tecan plates
+
+```{r echo=FALSE}
+tecan[,1:5] %>%
   kable(row.names = FALSE, align = "l") %>%
   kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"),font_size = 16)
 ```
