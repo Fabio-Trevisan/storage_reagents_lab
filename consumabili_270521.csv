@@ -15,10 +15,11 @@ tips;1000 uL;6;500;3000;plastic_tips
 tips;1000 uL;9;1000;9000;plastic_tips
 tips;5000 uL;7;334;2338;plastic_tips
 tips;5000 uL;11;100;1100;plastic_tips
-syringes;5 mL;8;100;800;syringes
-syringes;10 mL;5;100;500;syringes
+syringes;5 mL;9;100;800;syringes
+syringes;10 mL;6;100;600;syringes
 syringes;50 mL;4;50;200;syringes
-filters for syringes;0.45 um;4;500;2000;syringes
+filters for syringes;0.45 um;5;500;2000;syringes
+filters for syringes (mini);0.45 um;5;50;250;syringes
 glass tubes;-;47;250;11750;glass_tubes
 petri with divider;10 cm;24;20;480;petri
 petri;10 cm;113;10;1130;petri

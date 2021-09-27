@@ -84,7 +84,7 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 
 ```
 
-### Last update: 10 / 06 / 2021
+### Last update: 10 / 09 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
