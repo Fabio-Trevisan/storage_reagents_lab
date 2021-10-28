@@ -50,12 +50,13 @@ plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
 tecan <- subset(lista_consumabili, filter_name == "tecan")
 ```
 
-### Last update: 27 / 09 / 2021
+### Last update: 28 / 10 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 28/10/2021 - 80 Tecan plates added - Mauro
 - 27/09/2021 - Syringes and filters added - Mauro
 - 07/09/2021 - List updated - Mauro
 - 14/05/2021 - List updated - Mauro

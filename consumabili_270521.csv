@@ -20,7 +20,7 @@ syringes;10 mL;6;100;600;syringes
 syringes;50 mL;4;50;200;syringes
 filters for syringes;0.45 um;5;500;2000;syringes
 filters for syringes (mini);0.45 um;5;50;250;syringes
-glass tubes;-;47;250;11750;glass_tubes
+glass tubes;-;46;250;11500;glass_tubes
 petri with divider;10 cm;24;20;480;petri
 petri;10 cm;113;10;1130;petri
 petri;12 cm;46;10;460;petri
@@ -37,4 +37,4 @@ cuvettes;-;9;100;900;cuvettes
 cuvettes;-;2;100;200;cuvettes
 cuvettes;-;2;100;200;cuvettes
 mini plastic pots (yellow lid);70 mL;2;250;500;plastic_pots
-tecan plates;-;2;40;80;tecan
+tecan plates;-;4;40;160;tecan
