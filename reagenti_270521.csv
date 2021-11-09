@@ -106,7 +106,7 @@ EDTA;ED2SS;SIGMA;500 g;1;;Lab 1.20;E;;lab_1_20
 EDTA Fe Na;E6760;SIGMA;500 g;1;;K -1;E;;K_-1
 EGTA;E3889;SIGMA;25 g;1;;Lab 1.20;E;;lab_1_20
 Ellagic acid;E2230;SIGMA;1 g;1;;Lab 1.20;E;;lab_1_20
-Ethanol absolute;131086.1212;PANREAC;2.5 L;2;;Lab 1.20;E;;lab_1_20
+Ethanol absolute;131086.1212;PANREAC;2.5 L;1;;Lab 1.20;E;;lab_1_20
 Ethanol absolute;32221;SIGMA;2.5 L;1;;Lab 1.20;E;;lab_1_20
 Ethylenediaminetetra acetic acid;ED5;SIGMA;500 g;1;;Lab 1.20;E;;lab_1_20
 Ethylenediaminetetra acid ferric sodium salt;E6760;SIGMA;500 g;1;new;Lab 1.20;E;;lab_1_20
@@ -206,7 +206,6 @@ Potassium chloride;P9541;SIGMA;1 Kg;1;new;Lab 1.20;P;;lab_1_20
 Potassium chloride;P9541;SIGMA;1 Kg;1;;K -1;P;;K_-1
 Potassium hydrogen phthalate;P1088;SIGMA;100 g;1;;Lab 1.20;P;;lab_1_20
 Potassium hydroxide;30603;HONEYWELL;500 g;2;;Lab 1.20;P;;lab_1_20
-Potassium nitrate;P98394;SIGMA;1 Kg;1;almost empty;Lab 1.20;P;;lab_1_20
 Potassium nitrate;205910010;ACROS;1 Kg;1;;Lab 1.20;P;;lab_1_20
 Potassium phosphate dibasic;4248;SIGMA;500 g;1;new;Lab 1.20;P;;lab_1_20
 Potassium phosphate monobasic;P5655;SIGMA;500 g;2;1 new - 1 almost empty;Lab 1.20;P;;lab_1_20
