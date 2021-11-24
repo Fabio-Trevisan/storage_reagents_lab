@@ -50,12 +50,14 @@ plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
 tecan <- subset(lista_consumabili, filter_name == "tecan")
 ```
 
-### Last update: 28 / 10 / 2021
+### Last update: 24 / 11 / 2021
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 24/11/2021 - 520x Falcon 50mL, 600x  Falcon 15mL removed - Marco
+- 23/11/2021 - 100x Falcon 15mL, 200x Eppendorf 5 mL removed - Fabio
 - 28/10/2021 - 80 Tecan plates added - Mauro
 - 27/09/2021 - Syringes and filters added - Mauro
 - 07/09/2021 - List updated - Mauro
