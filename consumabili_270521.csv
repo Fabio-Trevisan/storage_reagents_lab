@@ -1,8 +1,8 @@
 ﻿Item;Volume;Bags;n per bag;Total;filter_name
 Eppendorf tubes;2 mL;13;1000;13000;plastic_tubes
 Eppendorf tubes;1.5 mL;1;500;500;plastic_tubes
-Eppendorf tubes;1.5 mL;5;1000;5000;plastic_tubes
-Eppendorf tubes;5 mL;3;250;690;plastic_tubes
+Eppendorf tubes;1.5 mL;4;1000;4000;plastic_tubes
+Eppendorf tubes;5 mL;4;250;725;plastic_tubes
 tips;10 uL;4;1000;4000;plastic_tips
 tips + filter + box;10 uL;40;96;3840;plastic_tips
 tips;20 uL;6;1000;6000;plastic_tips
@@ -14,17 +14,20 @@ tips;1000 uL;6;500;3000;plastic_tips
 tips;1000 uL;9;1000;9000;plastic_tips
 tips;5000 uL;7;334;2338;plastic_tips
 tips;5000 uL;11;100;1100;plastic_tips
-syringes;5 mL;9;100;800;syringes
-syringes;10 mL;6;100;600;syringes
-syringes;50 mL;4;50;200;syringes
-filters for syringes;0.45 um;5;500;2000;syringes
+syringes;5 mL;9;100;930;syringes
+syringes;10 mL;5;100;570;syringes
+syringes;50 mL;4;50;215;syringes
+filters for syringes;0.45 um;3;500;1460;syringes
 filters for syringes (mini);0.45 um;5;50;250;syringes
 glass tubes;-;46;250;11320;glass_tubes
 petri with divider;10 cm;24;20;480;petri
-petri;10 cm;113;10;1130;petri
-petri;12 cm;46;10;460;petri
-falcon;15 mL;3;40;100;falcon
-falcon;50 mL;8;100;800;falcon
+petri;10 cm;111;10;1110;petri
+petri;12 cm;44;10;440;petri
+falcon;15 mL;3;50;150;falcon
+falcon;15 mL;3;40;136;falcon
+falcon;50 mL;16;25;400;falcon
+falcon;50 mL;1;100;150;falcon
+falcon with stand;50 mL;2;50;100;falcon
 falcon + filter;50 mL;5.5;24;132;falcon
 filter paper Whatman;-;6;100;600;paper_filters
 filter paper foldable;-;15;100;1500;paper_filters

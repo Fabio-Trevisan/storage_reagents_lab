@@ -13,12 +13,22 @@
 
 <title>Storage K -1</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -26,6 +36,7 @@
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -39,11 +50,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -56,32 +62,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -93,10 +73,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -113,40 +89,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -174,7 +123,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -186,7 +135,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -197,10 +146,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -212,7 +174,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -338,7 +299,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -371,7 +332,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:mauro.maver@unibz.it">
-    <span class="fas fa-envelope"></span>
+    <span class="fa fa-envelope"></span>
      
   </a>
 </li>
@@ -380,7 +341,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -389,8 +350,8 @@ div.tocify {
 </div>
 
 
-<div id="last-update-26-11-2021" class="section level3">
-<h3>Last update: 26 / 11 / 2021</h3>
+<div id="last-update-05-01-2022" class="section level3">
+<h3>Last update: 05 / 01 / 2022</h3>
 <div id="for-any-update-deposit-or-withdrawal-please-email-me-mauro" class="section level4">
 <h4>for any update (deposit or withdrawal), please email me! –&gt; <a href="mailto:mauro.maver@unibz.it?subject=%5BUpdate%5D%20Storage%20K-1%20and%20Lab%201.20">Mauro</a></h4>
 <hr />
@@ -399,6 +360,7 @@ div.tocify {
 <div id="last-changes" class="section level3">
 <h3>Last changes:</h3>
 <ul>
+<li>05/01/2022 - List updated - <strong>Mauro</strong></li>
 <li>25/11/2021 - 900x Falcon 50mL, 60x Falcon 15mL, 60x Epp. 5mL, 300x Epp. 2mL, 180x Glass tubes, 340x Cuvettes removed - <strong>Oussama</strong></li>
 <li>24/11/2021 - 520x Falcon 50mL, 600x Falcon 15mL removed - <strong>Marco</strong></li>
 <li>23/11/2021 - 100x Falcon 15mL, 200x Epp. 5 mL removed - <strong>Fabio</strong></li>
@@ -406,14 +368,16 @@ div.tocify {
 <li>27/09/2021 - Syringes and filters added - <strong>Mauro</strong></li>
 <li>07/09/2021 - List updated - <strong>Mauro</strong></li>
 <li>14/05/2021 - List updated - <strong>Mauro</strong></li>
-<li>28/05/2021 - List created</li>
+<li>28/05/2021 - List created - <strong>Mauro</strong></li>
 </ul>
 <hr />
 </div>
 <div id="to-buy" class="section level3">
 <h3>To buy:</h3>
 <ul>
-<li>…</li>
+<li>falcon 15 mL</li>
+<li>falcon 50 mL</li>
+<li>paper filters</li>
 </ul>
 <hr />
 </div>
@@ -481,13 +445,13 @@ Eppendorf tubes
 1.5 mL
 </td>
 <td style="text-align:left;">
-5
+4
 </td>
 <td style="text-align:left;">
 1000
 </td>
 <td style="text-align:left;">
-5000
+4000
 </td>
 </tr>
 <tr>
@@ -498,13 +462,13 @@ Eppendorf tubes
 5 mL
 </td>
 <td style="text-align:left;">
-3
+4
 </td>
 <td style="text-align:left;">
 250
 </td>
 <td style="text-align:left;">
-690
+725
 </td>
 </tr>
 </tbody>
@@ -755,10 +719,27 @@ falcon
 3
 </td>
 <td style="text-align:left;">
+50
+</td>
+<td style="text-align:left;">
+150
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+falcon
+</td>
+<td style="text-align:left;">
+15 mL
+</td>
+<td style="text-align:left;">
+3
+</td>
+<td style="text-align:left;">
 40
 </td>
 <td style="text-align:left;">
-100
+136
 </td>
 </tr>
 <tr>
@@ -769,13 +750,47 @@ falcon
 50 mL
 </td>
 <td style="text-align:left;">
-8
+16
+</td>
+<td style="text-align:left;">
+25
+</td>
+<td style="text-align:left;">
+400
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+falcon
+</td>
+<td style="text-align:left;">
+50 mL
+</td>
+<td style="text-align:left;">
+1
 </td>
 <td style="text-align:left;">
 100
 </td>
 <td style="text-align:left;">
-800
+150
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+falcon with stand
+</td>
+<td style="text-align:left;">
+50 mL
+</td>
+<td style="text-align:left;">
+2
+</td>
+<td style="text-align:left;">
+50
+</td>
+<td style="text-align:left;">
+100
 </td>
 </tr>
 <tr>
@@ -834,7 +849,7 @@ syringes
 100
 </td>
 <td style="text-align:left;">
-800
+930
 </td>
 </tr>
 <tr>
@@ -845,13 +860,13 @@ syringes
 10 mL
 </td>
 <td style="text-align:left;">
-6
+5
 </td>
 <td style="text-align:left;">
 100
 </td>
 <td style="text-align:left;">
-600
+570
 </td>
 </tr>
 <tr>
@@ -868,7 +883,7 @@ syringes
 50
 </td>
 <td style="text-align:left;">
-200
+215
 </td>
 </tr>
 <tr>
@@ -879,13 +894,13 @@ filters for syringes
 0.45 um
 </td>
 <td style="text-align:left;">
-5
+3
 </td>
 <td style="text-align:left;">
 500
 </td>
 <td style="text-align:left;">
-2000
+1460
 </td>
 </tr>
 <tr>
@@ -998,13 +1013,13 @@ petri
 10 cm
 </td>
 <td style="text-align:left;">
-113
+111
 </td>
 <td style="text-align:left;">
 10
 </td>
 <td style="text-align:left;">
-1130
+1110
 </td>
 </tr>
 <tr>
@@ -1015,13 +1030,13 @@ petri
 12 cm
 </td>
 <td style="text-align:left;">
-46
+44
 </td>
 <td style="text-align:left;">
 10
 </td>
 <td style="text-align:left;">
-460
+440
 </td>
 </tr>
 </tbody>
@@ -1342,7 +1357,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -1351,6 +1366,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
