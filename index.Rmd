@@ -50,12 +50,13 @@ plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
 tecan <- subset(lista_consumabili, filter_name == "tecan")
 ```
 
-### Last update: 05 / 04 / 2022
+### Last update: 15 / 06 / 2022
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 15/06/2022 - List updated - **Mauro**
 - 05/04/2022 - 100x Epp. 5mL, 60x Falcon 15mL, 350x Falcon 50mL removed - **Fabio** 
 - 27/01/2022 - List updated - **Mauro**
 - 13/01/2022 - List updated - **Mauro**
