@@ -24,7 +24,7 @@ Acetonitrile (HPLC);;RIEDEL DE HAEN;2.5 L;8;;Lab 1.22;A;;lab_1_22
 Acetonitrile;34851;HONEYWELL;2.5 L;4;2 new;Lab 1.20;A;;lab_1_20
 Acrylamide solution;1697;FLUKA;500 mL;1;;Lab 1.20;A;;lab_1_20
 Acrylamide solution ;A3632.1000;;1 L;1;;Lab 1.20;A;;lab_1_20
-Agar;P1001.1000;DUCHEFA;1 Kg;1;;Lab 1.20;A;;lab_1_20
+Agar;P1001.1000;DUCHEFA;1 Kg;3;2 new;Lab 1.20;A;;lab_1_20
 Agar;A1296;SIGMA;500 g;1;;Lab 1.20;A;;lab_1_20
 Agar;A7921;SIGMA;100 g;1;;Lab 1.20;A;;lab_1_20
 Agar (ash 2-4.5%);A7002;SIGMA;500 g;1;;Lab 1.20;A;;lab_1_20
@@ -145,7 +145,7 @@ Kaempferol;60010;SIGMA;25 mg;1;;Lab 1.20;K;;lab_1_20
 L-(-)-Malic acid;M6413;SIGMA;25 g;1;;Lab 1.20;M;;lab_1_20
 L-(+)-Arabinose;A3256;SIGMA;25 g;1;new;Lab 1.20;A;;lab_1_20
 L-(+)-Tartaric acid;251380;;100 g;1;;Lab 1.20;T;;lab_1_20
-L-Ascorbic acid;A5960;SIGMA;25 g;1;almost empty;Lab 1.20;A;;lab_1_20
+L-Ascorbic acid;A5960;SIGMA;100 g;1;new;Lab 1.20;A;;lab_1_20
 L-Asparagine;51363;SIGMA;100 mg;1;;Lab 1.20;A;;lab_1_20
 L-Cysteine;168149;SIGMA;25 g;1;;Lab 1.20;C;;lab_1_20
 L-Glutamine;76523;SIGMA;100 mg;1;;Lab 1.20;G;;lab_1_20
@@ -154,7 +154,7 @@ L-Glutathione reduced;G4251;SIGMA;1 g;1;;Lab 1.20;G;;lab_1_20
 L-Tryptophan;T0254;SIGMA;100 g;1;new;Lab 1.20;T;;lab_1_20
 LB Broth (Miller);L3522;SIGMA;1 Kg;2;;Lab 1.20;L;;lab_1_20
 Lithium chloride;L9630;SIGMA;100 g;1;new;Lab 1.20;L;;lab_1_20
-Magnesium chloride hexahydrate;459336;;100 g;2;new;Lab 1.20;M;;lab_1_20
+Magnesium chloride hexahydrate;459336;;100 g;1;new;Lab 1.20;M;;lab_1_20
 Magnesium chloride hexahydrate;M2670;SIGMA;1 Kg;1;new;Lab 1.20;M;;lab_1_20
 Magnesium chloride hexahydrate;162;SIGMA;250 g;1;;Lab 1.20;M;;lab_1_20
 Magnesium nitrate hexahydrate;63084;SIGMA;1 Kg;2;1 new;Lab 1.20;M;;lab_1_20
@@ -175,7 +175,7 @@ Methanol;34966;HONEYWELL;2.5 L;3;2 new;Lab 1.20;M;;lab_1_20
 Methyl jasmonate;W341002;SIGMA;25 g;1;;Lab 1.20;M;;lab_1_20
 MOPS;M1254;SIGMA;100 g;1;;Lab 1.20;M;;lab_1_20
 Murashige & Skoog medium M407;;PHYTOTECH;30 g;3;2 new;Lab 1.22;M;;lab_1_22
-Murashige & Skoog medium;M0221.005;DUCHEFA;215.1 g;1;;Lab 1.20;M;;lab_1_20
+Murashige & Skoog medium;M0221.005;DUCHEFA;215.1 g;2;1 new;Lab 1.20;M;;lab_1_20
 N-Methyl-4-tyramine;OR-4655;SIGMA;5 g;1;new;Lab 1.20;M;;lab_1_20
 N,N,N',N'-Tetramethyl-ethylenediamine;T9281;SIGMA;25 mL;1;;Lab 1.20;T;;lab_1_20
 N,N'-Methylenebisacrylamide;M7279;;100 g;1;;Lab 1.20;M;;lab_1_20
@@ -273,6 +273,7 @@ Tryptone enzymatic diest from casein;95039;FLUKA;1 Kg;1;almost empty;Lab 1.20;T;
 Tyramine;80345;SIGMA;100 mg;1;;Lab 1.20;T;;lab_1_20
 Urea;U5378;SIGMA;100 g;1;;Lab 1.20;U;;lab_1_20
 Urea;U5378;SIGMA;300 g;1;new;Lab 1.20;U;;lab_1_20
+Urea;U1363;Duchefa;1 Kg;1;1 new;Lab 1.20;U;;lab_1_20
 Urea;490970;SIGMA;25 g;1;almost empty;Lab 1.20;U;;lab_1_20
 Vanillic acid;94770;SIGMA;10 g;1;;Lab 1.20;V;;lab_1_20
 Xylene;X4126;SIGMA;10 g;1;;Lab 1.20;X;;lab_1_20
@@ -284,3 +285,5 @@ Zinc sulphate heptahydrate;07128CJ-069;;500 g;1;;Lab 1.20;Z;;lab_1_20
 Zinc sulphate heptahydrate;Z0251;SIGMA;500 g;1;;K -1;Z;;K_-1
 Zirconyl chloride octahydrate 98%;224316;SIGMA;100 g;1;new;Lab 1.20;Z;;lab_1_20
 Triton X-100;X100;SIGMA;500 mL;1;new;Lab 1.20;T;;lab_1_20
+phosphinotricin ;P0159.0250;Duchefa;250 mg;1;new;Lab 1.20;P;;lab_1_20
+DMSO;D1370.1000;Duchefa;1 L;1;new;Lab 1.20;D;;lab_1_20

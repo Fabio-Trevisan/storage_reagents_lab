@@ -84,12 +84,13 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 
 ```
 
-### Last update: 27 / 01 / 2022
+### Last update: 16 / 11 / 2022
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
 ### Last changes:
+- 16/11/2022 - List updated - **Mauro**
 - 27/01/2022 - List updated - **Mauro**
 - 13/01/2022 - List updated - **Mauro**
 - 09/11/2021 - 2.5L Ethanol Ab. and KNO3 removed - **Mauro**
@@ -103,7 +104,6 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 ---
 
 ### To buy:
-- Ascorbic acid
 
 ---
 
