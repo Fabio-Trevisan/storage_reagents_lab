@@ -1,6 +1,6 @@
 ﻿Item;Volume;Bags;n per bag;Total;filter_name
 Eppendorf tubes;2 mL;-;-;12200;plastic_tubes
-Eppendorf tubes;1.5 mL;-;-;4500;plastic_tubes
+Eppendorf tubes;1.5 mL;-;-;8500;plastic_tubes
 Eppendorf tubes;5 mL;-;-;1950;plastic_tubes
 tips;10 uL;4;1000;4000;plastic_tips
 tips + filter + box;10 uL;40;96;3840;plastic_tips
@@ -27,7 +27,7 @@ petri;12 cm;-;-;440;petri
 falcon;15 mL;-;-;10700;falcon
 falcon;50 mL;-;-;6460;falcon
 falcon + filter;50 mL;-;-;132;falcon
-filter paper Whatman;-;-;-;200;paper_filters
+filter paper Whatman;-;-;-;1400;paper_filters
 filter paper foldable;-;15;100;1500;paper_filters
 pasteur;1 mL;2;400;800;pasteur
 pasteur;3 mL;5;500;2500;pasteur
