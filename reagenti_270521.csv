@@ -18,7 +18,7 @@
 Acetic acid;33209;;2.5 L;1;new;Lab 1.20;A;;lab_1_20
 Acetic acid;320099;SIGMA;500 mL;1;almost empty;Lab 1.20;A;;lab_1_20
 Acetic acid;UN2789;PROLABO;1 L;1;;Lab 1.20;A;;lab_1_20
-Acetic acid glacial;1.00063.1000;;1 L;1;almost empty;Lab 1.20;A;;lab_1_20
+Acetic acid glacial;1.000.631.000;;1 L;1;almost empty;Lab 1.20;A;;lab_1_20
 Acetonitrile (LC-MS);;RIEDEL DE HAEN;2.5 L;2;;Lab 1.22;A;;lab_1_22
 Acetonitrile (HPLC);;RIEDEL DE HAEN;2.5 L;8;;Lab 1.22;A;;lab_1_22
 Acetonitrile;34851;HONEYWELL;2.5 L;4;2 new;Lab 1.20;A;;lab_1_20
@@ -33,7 +33,7 @@ Alluminium nitrate nonahydrate;237973;SIGMA;500 g;1;;Lab 1.20;A;;lab_1_20
 alpha-Ketoglutaric acid;75890;SIGMA;100 g;1;;Lab 1.20;K;;lab_1_20
 Aluminium chloride;206911;SIGMA;1 Kg;1;;Lab 1.20;A;;lab_1_20
 Amberlite;6428;SIGMA;1 Kg;1;new;Lab 1.20;A;;lab_1_20
-Amberlite;1.15966.0500;MERCK;500 mL;2;new;K 1;A;;K_1
+Amberlite;1.159.660.500;MERCK;500 mL;2;new;K 1;A;;K_1
 Ammonium;488097;;5 g;1;to check;Lab 1.20;A;;lab_1_20
 Ammonium acetate;153164R;VWR;250 g;4;new;Lab 1.20;A;;lab_1_20
 Ammonium acetate;9689;SIGMA;250 g;1;;Lab 1.20;A;;lab_1_20
@@ -47,6 +47,7 @@ Ammonium phosphate dibasic;9839;SIGMA;250 g;1;;Lab 1.20;A;;lab_1_20
 Ammonium phosphate monobasic;9709;SIGMA;1 Kg;1;new;Lab 1.20;A;;lab_1_20
 Ammonium sulphate;A4418;SIGMA;1 Kg;1;;Lab 1.20;A;;lab_1_20
 Anthracene-9-carboxylic acid;10144158;;10 g;1;;Lab 1.20;A;;lab_1_20
+Antimony potassium tartrate;423035;CARLO ERBA;250 g;1;1 new;Lab 1.20;A;;lab_1_20
 Auromine O;861030;SIGMA;25 g;1;new;Lab 1.20;A;;lab_1_20
 Bathocuproinedisulfonic acid disodium salt hydrate;146625;;1 g;1;;Lab 1.20;B;;lab_1_20
 Bathophenanthrolinedisulfonic acid;B-1375;;5 g;1;;Lab 1.20;B;;lab_1_20
@@ -66,6 +67,7 @@ Calcium chloride dihydrate;C3881;SIGMA;1 Kg;1;;Lab 1.20;C;;lab_1_20
 Calcium chloride dihydrate;C3881;SIGMA;1 Kg;1;;K -1;C;;K_-1
 Calcium nitrate;488402;;25 g;1;to check;Lab 1.20;C;;lab_1_20
 Calcium nitrate tetrahydrate;31218;SIGMA;1 Kg;1;new;Lab 1.20;C;;lab_1_20
+Calcium nitrate tetrahydrate;433957;CARLO ERBA;1 Kg;1;1 new;K -1;C;;K_-1
 Calcium nitrate tetrahydrate;237124;SIGMA;2.5 Kg;1;new;K 1;C;;K_1
 Calcium phophate;446390010;ACROS;1 Kg;1;;Lab 1.20;C;;lab_1_20
 Calcium sulfate dihydrate;C3771;SIGMA;500 g;1;;Lab 1.20;C;;lab_1_20
@@ -73,7 +75,7 @@ Calcium sulfate dihydrate;C3771;SIGMA;1 Kg;1;;Lab 1.20;C;;lab_1_20
 Calcium sulfate dihydrate;C3771;SIGMA;500 g;1;new;K 1;C;;K_1
 Calcium sulfate dihydrate;C3771;SIGMA;500 g;1;new;K 1;C;;K_1
 Carboxy-PTIO potassium salt;C221;SIGMA;10 mg;1;;Lab 1.20;C;;lab_1_20
-Chloridric Acid;131020.1211;PANREAC;1 L;1;new;Lab 1.20;C;;lab_1_20
+Charcoal;434455;CARLO ERBA;250 g;1;1 new;Lab 1.20;C;;lab_1_20
 Chloroform;438732;CARLO ERBA;1 L;2;new;Lab 1.20;C;;lab_1_20
 Chloroform;438603;CARLO ERBA;2.5 L;1;;Lab 1.20;C;;lab_1_20
 Chloroform-isoamyl alcohol mixture;25666;SIGMA;100 mL;2;1 new;Lab 1.20;C;;lab_1_20
@@ -99,7 +101,7 @@ D-Sorbitol;S7547;SIGMA;250 g;1;;Lab 1.20;S;;lab_1_20
 Diethylenetriaminepentaacetic acid;D1133;SIGMA;500 g;1;;Lab 1.20;D;;lab_1_20
 Diethylenetriaminepentaacetic acid;D1133;SIGMA;250 g;1;new;Lab 1.20;D;;lab_1_20
 Direct Red 23;212490;SIGMA;50 g;1;new;Lab 1.20;D;;lab_1_20
-Dithio-threitol;1.11474.0001;;1 g;1;;Lab 1.20;D;;lab_1_20
+Dithio-threitol;1.114.740.001;;1 g;1;;Lab 1.20;D;;lab_1_20
 DL-Dithiothreitol;43819;SIGMA;25 g;1;;Lab 1.20;D;;lab_1_20
 DL-Malic acid;27606;SIGMA;1 Kg;1;;Lab 1.20;M;;lab_1_20
 DOWEX 50WX4-400 ion-exchange resin;21748;SIGMA;100 g;2;1 new;Lab 1.20;D;;lab_1_20
@@ -108,9 +110,11 @@ EDTA;ED2SS;SIGMA;500 g;1;;Lab 1.20;E;;lab_1_20
 EDTA Fe Na;E6760;SIGMA;500 g;1;;K -1;E;;K_-1
 EGTA;E3889;SIGMA;25 g;1;;Lab 1.20;E;;lab_1_20
 Ellagic acid;E2230;SIGMA;1 g;1;;Lab 1.20;E;;lab_1_20
-Ethanol absolute;131086.1212;PANREAC;2.5 L;3;;Lab 1.20;E;;lab_1_20
+Ethanol absolute;1.310.861.212;PANREAC;2.5 L;3;;Lab 1.20;E;;lab_1_20
+Ethanol absolute;414.605;CARLO ERBA;2.5 L;2;2 new;Lab 1.20;E;;lab_1_20
 Ethanol absolute;32221;SIGMA;2.5 L;1;;Lab 1.20;E;;lab_1_20
 Ethylenediaminetetra acetic acid;ED5;SIGMA;500 g;1;;Lab 1.20;E;;lab_1_20
+Ethylenediaminetetraacetic acid iron III sodium salt hydrate;359610;SIGMA;250 g;1;1 new;Lab 1.20;E;;lab_1_20
 Ethylenediaminetetra acid ferric sodium salt;E6760;SIGMA;500 g;1;new;Lab 1.20;E;;lab_1_20
 Ferrozina;82950;SIGMA;5 g;2;1 new;Lab 1.20;F;;lab_1_20
 Ferrozina;82950;SIGMA;5 g;1;;K -1;F;;K_-1
@@ -132,7 +136,7 @@ Hepes;H337;SIGMA;500 g;1;;Lab 1.20;H;;lab_1_20
 Hepes;H4034;SIGMA;500 g;1;;Lab 1.20;H;;lab_1_20
 Hordenine;4476;SIGMA;1 g;1;;Lab 1.20;H;;lab_1_20
 Hordenine;4476;SIGMA;1 g;1;new;Lab 1.20;H;;lab_1_20
-Hydrogen peroxide 30%;121076.1211;PANREAC;1 L;4;;Lab 1.20;H;;lab_1_20
+Hydrogen peroxide 30%;1.210.761.211;PANREAC;1 L;4;;Lab 1.20;H;;lab_1_20
 Hydroxylamine hydrochloride 98%;255580;SIGMA;100 g;1;new;Lab 1.20;H;;lab_1_20
 Iminodiacetic acid;220000;SIGMA;500 g;1;;Lab 1.20;I;;lab_1_20
 Iron (II) chloride;157740;SIGMA;100 g;1;;Lab 1.20;I;;lab_1_20
@@ -233,26 +237,31 @@ Sodium acetate anydrous;478166;;500 g;1;new;Lab 1.20;S;;lab_1_20
 Sodium acetate;;Fluka;50 g;1;almost empty;Lab 1.20;S;;lab_1_20
 Sodium azide;S2002;SIGMA;100 g;1;;Lab 1.20;S;;lab_1_20
 Sodium chloride;S30…;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
+Sodium chloride;31434;HONEYWELL;1 Kg;1;1 new;Lab 1.20;S;;lab_1_20
 Sodium chloride;71376;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
 Sodium citrate tribasic dihydrate;C3771;SIGMA;500 g;1;new;K 1;S;;K_1
 Sodium deoxycholate;D6750;SIGMA;25 g;1;;Lab 1.20;S;;lab_1_20
+Sodium dihydrogen citrate;L12557;THERMOSCIENTIFIC;500 g;2;2 new;Lab 1.20;S;;lab_1_20
 Sodium dodecyl sulphate;L3771;SIGMA;100 g;1;;Lab 1.20;S;;lab_1_20
 Sodium dodecyl sulphate;71725;;100 g;1;;Lab 1.20;S;;lab_1_20
 Sodium hydroxide;S8045;SIGMA;500 g;1;new;Lab 1.20;S;;lab_1_20
+Sodium hypochlorite solution;481181;CARLO ERBA;1 L;1;1 new;Lab 1.20;S;;lab_1_20
 Sodium metasilicate nonahydrate;S4392;SIGMA;250 g;2;new;Lab 1.20;S;;lab_1_20
 Sodium molybdate dihydrate;;;100 g;1;to check;K -1;S;;K_-1
-Sodium nitrate;27955.295;VWR;1 Kg;1;;Lab 1.20;S;;lab_1_20
+Sodium nitrate;27.955.295;VWR;1 Kg;1;;Lab 1.20;S;;lab_1_20
 Sodium nitrite;31443;SIGMA;500 g;1;;Lab 1.20;S;;lab_1_20
 Sodium nitroprusside dihydrate;71778;;25 g;1;new;Lab 1.20;S;;lab_1_20
+Sodium pyrophosphate;A17546;THERMOSCIENTIFIC;250 g;1;1 new;Lab 1.20;S;;lab_1_20
 Sodium phosphate dibasic;S0876;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
+Soidum salicylate;S3007;SIGMA;500 g;2;2 new;Lab 1.20;S;;lab_1_20
 Sodium selenate;71948;SIGMA;500 g;1;;Lab 1.20;S;;lab_1_20
 Spiraeoside;1201;;10 mg;1;;Lab 1.20;S;;lab_1_20
 Succinic acid;S3674;SIGMA;100 g;1;;Lab 1.20;S;;lab_1_20
 Sucrose;84097;SIGMA;1 Kg;1;;Lab 1.20;S;;lab_1_20
 Sucrose;S9378;SIGMA;1 Kg;1;new;Lab 1.20;S;;lab_1_20
 Sucrose;84097;SIGMA;250 g;1;;Lab 1.20;S;;lab_1_20
-Sulfuric acid;1.090721;MERCK;4 L;3;3 new;Lab 1.22;S;;lab_1_22
-Sulfuric acid;1.090721;MERCK;1 L;3;2 new;Lab 1.20;S;;lab_1_20
+Sulfuric acid;1.090.721;MERCK;4 L;3;3 new;Lab 1.22;S;;lab_1_22
+Sulfuric acid;1.090.721;MERCK;1 L;3;2 new;Lab 1.20;S;;lab_1_20
 Sulfuric acid;61600304;ALFA AESAR;1 L;3;;Lab 1.22;S;;lab_1_22
 Sulfuric acid;61600304;ALFA AESAR;1 L;1;;Lab 1.20;S;;lab_1_20
 Sulfuric acid;258105;HONEYWELL;2.5 L;1;;Lab 1.20;S;;lab_1_20

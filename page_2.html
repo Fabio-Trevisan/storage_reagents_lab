@@ -13,7 +13,7 @@
 
 <title>Reagents</title>
 
-<script src="site_libs/header-attrs-2.12/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -149,11 +149,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -182,8 +186,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -191,16 +195,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -354,8 +351,8 @@ div.tocify {
 </div>
 
 
-<div id="last-update-16-11-2022" class="section level3">
-<h3>Last update: 16 / 11 / 2022</h3>
+<div id="last-update-10-01-2023" class="section level3">
+<h3>Last update: 10 / 01 / 2023</h3>
 <div id="for-any-update-deposit-or-withdrawal-please-email-me-mauro"
 class="section level4">
 <h4>for any update (deposit or withdrawal), please email me! –&gt; <a
@@ -366,6 +363,7 @@ href="mailto:mauro.maver@unibz.it?subject=%5BUpdate%5D%20Storage%20K-1%20and%20L
 <div id="last-changes" class="section level3">
 <h3>Last changes:</h3>
 <ul>
+<li>10/01/2023 - List updated - <strong>Mauro</strong></li>
 <li>16/11/2022 - List updated - <strong>Mauro</strong></li>
 <li>27/01/2022 - List updated - <strong>Mauro</strong></li>
 <li>13/01/2022 - List updated - <strong>Mauro</strong></li>
@@ -574,7 +572,7 @@ Lab 1.20
 Acetic acid glacial
 </td>
 <td style="text-align:left;">
-1.00063.1000
+1.000.631.000
 </td>
 <td style="text-align:left;">
 </td>
@@ -882,7 +880,7 @@ Lab 1.20
 Amberlite
 </td>
 <td style="text-align:left;">
-1.15966.0500
+1.159.660.500
 </td>
 <td style="text-align:left;">
 MERCK
@@ -1183,6 +1181,29 @@ Anthracene-9-carboxylic acid
 1
 </td>
 <td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Antimony potassium tartrate
+</td>
+<td style="text-align:left;">
+423035
+</td>
+<td style="text-align:left;">
+CARLO ERBA
+</td>
+<td style="text-align:left;">
+250 g
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+1 new
 </td>
 <td style="text-align:left;">
 Lab 1.20
@@ -1826,6 +1847,29 @@ Lab 1.20
 Calcium nitrate tetrahydrate
 </td>
 <td style="text-align:left;">
+433957
+</td>
+<td style="text-align:left;">
+CARLO ERBA
+</td>
+<td style="text-align:left;">
+1 Kg
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+1 new
+</td>
+<td style="text-align:left;">
+K -1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Calcium nitrate tetrahydrate
+</td>
+<td style="text-align:left;">
 237124
 </td>
 <td style="text-align:left;">
@@ -1980,22 +2024,22 @@ Lab 1.20
 </tr>
 <tr>
 <td style="text-align:left;">
-Chloridric Acid
+Charcoal
 </td>
 <td style="text-align:left;">
-131020.1211
+434455
 </td>
 <td style="text-align:left;">
-PANREAC
+CARLO ERBA
 </td>
 <td style="text-align:left;">
-1 L
+250 g
 </td>
 <td style="text-align:left;">
 1
 </td>
 <td style="text-align:left;">
-new
+1 new
 </td>
 <td style="text-align:left;">
 Lab 1.20
@@ -2505,7 +2549,7 @@ Lab 1.20
 Dithio-threitol
 </td>
 <td style="text-align:left;">
-1.11474.0001
+1.114.740.001
 </td>
 <td style="text-align:left;">
 </td>
@@ -2736,7 +2780,7 @@ Lab 1.20
 Ethanol absolute
 </td>
 <td style="text-align:left;">
-131086.1212
+1.310.861.212
 </td>
 <td style="text-align:left;">
 PANREAC
@@ -2748,6 +2792,29 @@ PANREAC
 3
 </td>
 <td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ethanol absolute
+</td>
+<td style="text-align:left;">
+414.605
+</td>
+<td style="text-align:left;">
+CARLO ERBA
+</td>
+<td style="text-align:left;">
+2.5 L
+</td>
+<td style="text-align:left;">
+2
+</td>
+<td style="text-align:left;">
+2 new
 </td>
 <td style="text-align:left;">
 Lab 1.20
@@ -2792,6 +2859,29 @@ SIGMA
 1
 </td>
 <td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ethylenediaminetetraacetic acid iron III sodium salt hydrate
+</td>
+<td style="text-align:left;">
+359610
+</td>
+<td style="text-align:left;">
+SIGMA
+</td>
+<td style="text-align:left;">
+250 g
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+1 new
 </td>
 <td style="text-align:left;">
 Lab 1.20
@@ -3492,7 +3582,7 @@ Lab 1.20
 Hydrogen peroxide 30%
 </td>
 <td style="text-align:left;">
-121076.1211
+1.210.761.211
 </td>
 <td style="text-align:left;">
 PANREAC
@@ -6133,6 +6223,29 @@ Lab 1.20
 Sodium chloride
 </td>
 <td style="text-align:left;">
+31434
+</td>
+<td style="text-align:left;">
+HONEYWELL
+</td>
+<td style="text-align:left;">
+1 Kg
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+1 new
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sodium chloride
+</td>
+<td style="text-align:left;">
 71376
 </td>
 <td style="text-align:left;">
@@ -6190,6 +6303,29 @@ SIGMA
 1
 </td>
 <td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sodium dihydrogen citrate
+</td>
+<td style="text-align:left;">
+L12557
+</td>
+<td style="text-align:left;">
+THERMOSCIENTIFIC
+</td>
+<td style="text-align:left;">
+500 g
+</td>
+<td style="text-align:left;">
+2
+</td>
+<td style="text-align:left;">
+2 new
 </td>
 <td style="text-align:left;">
 Lab 1.20
@@ -6263,6 +6399,29 @@ Lab 1.20
 </tr>
 <tr>
 <td style="text-align:left;">
+Sodium hypochlorite solution
+</td>
+<td style="text-align:left;">
+481181
+</td>
+<td style="text-align:left;">
+CARLO ERBA
+</td>
+<td style="text-align:left;">
+1 L
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+1 new
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 Sodium metasilicate nonahydrate
 </td>
 <td style="text-align:left;">
@@ -6310,7 +6469,7 @@ K -1
 Sodium nitrate
 </td>
 <td style="text-align:left;">
-27955.295
+27.955.295
 </td>
 <td style="text-align:left;">
 VWR
@@ -6373,6 +6532,29 @@ Lab 1.20
 </tr>
 <tr>
 <td style="text-align:left;">
+Sodium pyrophosphate
+</td>
+<td style="text-align:left;">
+A17546
+</td>
+<td style="text-align:left;">
+THERMOSCIENTIFIC
+</td>
+<td style="text-align:left;">
+250 g
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+1 new
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 Sodium phosphate dibasic
 </td>
 <td style="text-align:left;">
@@ -6388,6 +6570,29 @@ SIGMA
 1
 </td>
 <td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Lab 1.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Soidum salicylate
+</td>
+<td style="text-align:left;">
+S3007
+</td>
+<td style="text-align:left;">
+SIGMA
+</td>
+<td style="text-align:left;">
+500 g
+</td>
+<td style="text-align:left;">
+2
+</td>
+<td style="text-align:left;">
+2 new
 </td>
 <td style="text-align:left;">
 Lab 1.20
@@ -6530,7 +6735,7 @@ Lab 1.20
 Sulfuric acid
 </td>
 <td style="text-align:left;">
-1.090721
+1.090.721
 </td>
 <td style="text-align:left;">
 MERCK
@@ -6553,7 +6758,7 @@ Lab 1.22
 Sulfuric acid
 </td>
 <td style="text-align:left;">
-1.090721
+1.090.721
 </td>
 <td style="text-align:left;">
 MERCK
