@@ -50,7 +50,7 @@ plastic_pots <- subset(lista_consumabili, filter_name == "plastic_pots")
 tecan <- subset(lista_consumabili, filter_name == "tecan")
 ```
 
-### Last update: 10 / 01 / 2023
+### Last update: 24 / 10 / 2023
 #### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
