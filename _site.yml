@@ -7,9 +7,6 @@ navbar:
   right:
     - icon: fa-envelope
       href: mailto:mauro.maver@unibz.it
-    - icon: fa-graduation-cap
-      text: ciao
-      href: https://scholar.google.it/citations?user=ZUUEM0sAAAAJ&hl=it
     #- icon: fab fa-github
     #  href: https://github.com/Stramon1um
     #- icon: fab fa-twitter
@@ -30,6 +27,6 @@ navbar:
     #  href: page_2.html
 output:
   html_document:
-    theme: darkly
+    theme: cosmo
     highlight: textmate
     css: style.css
