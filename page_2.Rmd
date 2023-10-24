@@ -1,14 +1,14 @@
 ---
 title: "Reagents"
-
-output: 
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
   html_document:
-    toc: true
+    toc: yes
     toc_float:
-      toc_collapsed: false
+      toc_collapsed: no
     toc_depth: 2
-    # number_sections: true
-    #theme: lumen
 ---
 
 ```{r setup, include=FALSE}
@@ -85,7 +85,7 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 ```
 
 ### Last update: 10 / 01 / 2023
-#### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
+#### for any update (deposit or withdrawal), please email me! --> [Mauro_](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
 
 ---
 
